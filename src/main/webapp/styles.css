@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+/* General body styling */
+body {
+    background-color: #AFEEEE;
+    color: #000080;
+}
+
+/* Header */
+.hdr {
+    font-family: 'Lato', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Emphasis line below header */
+.ee {
+    font-weight: lighter;
+    margin-top: 100px;
+    text-align: center;
+}
+
+strong {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Description paragraph */
+.pHtml {
+    margin-top: 25px;
+    text-align: center;
+}
+
+/* Image styling */
+.image {
+    height: 100px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    width: 100px;
+}
+
+/* Textbox input */
+.tbx {
+    background-color: #AFEEEE;
+    border-color: #000080;
+    color: #000080;
+    padding: 3.5px;
+}
+
+/* Button styles */
+.btn {
+    background-color: #000080;
+    color: #AFEEEE;
+    height: 32.5px;
+    margin-top: 25px;
+}
+
+.formButton {
+    background-color: #AFEEEE;
+    color: #000080;
+    margin-top: 5px;
+}
+
+.toHome {
+    background-color: #AFEEEE;
+    color: #000080;
+    height: 32.5px;
+    margin-top: 10px;
+}
+
+/* Center alignment wrapper */
+.stylize {
+    text-align: center;
+}
+
+/* Question card box */
+.question {
+    background-color: #000080;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #AFEEEE;
+    margin: 50px auto;
+    padding: 20px;
+    width: 400px;
+}
+
+/* Result card box */
+.resultBox {
+    background-color: #000080;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #AFEEEE;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+}
+
+/* Radio button spacing */
+.rd {
+    margin-bottom: 15px;
+}

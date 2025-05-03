@@ -35,6 +35,67 @@ A dynamic web-based quiz application built using **Java Servlets** and **HTML**,
 - Apache Tomcat
 - Eclipse IDE
 
+## 💡 Features
+
+- Interactive quiz of 10 questions related to Java Servlets
+- Tracks user score using sessions
+- Displays dynamic result based on score
+- Styled UI with external CSS
+- Uses `POST` for form submission and session tracking for state maintenance
+
+---
+
+## 📁 Project Structure
+
+```
+Quiz-WebApp/
+├── WebContent/
+│   ├── quizApp.html          # Landing page where users enter their name and start the quiz
+│   ├── styles.css            # Styling for all HTML pages
+│   └── WEB-INF/
+│       └── web.xml           # Web deployment descriptor (optional if annotations are used)
+│
+├── src/
+│   └── com.quizServlet/
+│       ├── startQuizServlet.java     # Handles initial name input and quiz session start
+│       ├── questionServlet.java      # Displays each quiz question and handles user answers
+│       └── resultQuizServlet.java    # Calculates score and displays final result
+│
+├── README.md                # Project documentation
+```
+---
+
+## ▶️ How to Run
+
+### Requirements
+
+- Java JDK 8 or later
+- Apache Tomcat 9 or later
+- Eclipse IDE (or any IDE with servlet support)
+- Git
+
+### Steps
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/Quiz-WebApp.git
+   ```
+
+2. **Import into Eclipse:**
+   - Open Eclipse.
+   - Go to `File` > `Import` > `Existing Projects into Workspace`.
+   - Select the `Quiz-WebApp` folder.
+   - Click **Finish**.
+
+3. **Run on Server:**
+   - Right-click the project > `Run As` > `Run on Server`.
+   - Choose **Tomcat** and click **Finish**.
+
+4. **Access the Application:**
+   ```
+   http://localhost:8080/Quiz-WebApp/quizApp.html
+   ```
 ---
 ## 🛠️ Author
 Devansh Tewari  

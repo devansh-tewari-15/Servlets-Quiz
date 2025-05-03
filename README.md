@@ -35,4 +35,13 @@ A dynamic web-based quiz application built using **Java Servlets** and **JSP**, 
 - Apache Tomcat
 - Eclipse IDE
 
+---
+## 🛠️ Author
+Devansh Tewari  
+📧 tewari.devansh15@gmail.com  
+📌 Core Java | Systems Design  
 
+---
+
+## 📃 License
+This project is open-source and free to use for educational or personal purposes.

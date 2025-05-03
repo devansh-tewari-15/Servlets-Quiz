@@ -100,7 +100,7 @@ Quiz-WebApp/
 ## 🛠️ Author
 Devansh Tewari  
 📧 tewari.devansh15@gmail.com  
-📌 Core Java | Systems Design  
+📌 Java Servlets| Web App 
 
 ---
 

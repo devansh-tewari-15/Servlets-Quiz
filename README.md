@@ -1,6 +1,6 @@
 # 📚 Quiz Webapp
 
-A dynamic web-based quiz application built using **Java Servlets** and **JSP**, designed to test users on Servlet-related concepts. The application is session-aware, tracks user progress, evaluates answers, and presents a final result.
+A dynamic web-based quiz application built using **Java Servlets** and **HTML**, designed to test users on Servlet-related concepts. The application is session-aware, tracks user progress, evaluates answers, and presents a final result.
 
 ---
 
